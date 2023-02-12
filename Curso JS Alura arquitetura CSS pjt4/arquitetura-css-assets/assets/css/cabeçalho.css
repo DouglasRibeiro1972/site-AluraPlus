@@ -1,0 +1,22 @@
+.cabeçalho{
+    align-items: center;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right:2rem;
+}
+
+@media screen and (min-width: 0) {
+    .cabeçalho{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabeçalho{
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
