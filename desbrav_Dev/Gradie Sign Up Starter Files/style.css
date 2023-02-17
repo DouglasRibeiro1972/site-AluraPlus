@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.desktop{
+    width: 228px;
+    height: 171px;
+    margin-right: 20px;
+}
+
+.mobile{
+    width: 325px;
+    height: 625px;
+}
+
+.carrossel{
+    width: 325px;
+    height: 625px;
+    text-overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.815);
+    
+
+}
+
+.carrossel ul{
+    
+    display: inline-flex;
+    list-style: none;
+    width: 553px;
+}
+
+.carrossel li{    
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+
+@keyframes slide {
+    0%{left: 0px;}
+    20%{left: 0px;}
+
+    50%{left: -228px;}
+
+    60%{left: -553px;}
+    90%{left: -553px;}
+
+    100%{left: 0px;}
+
+
+}
